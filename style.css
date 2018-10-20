@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Asap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #9baec8;
+}
 
 /*ID*/
 #horizontal-nav {
@@ -7,7 +24,12 @@
 }
 
 #ul-horizontal-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     padding: 0 18px;
+    background-color: #282c37;
+    overflow: hidden;
 }
 
 /*CLASS*/
