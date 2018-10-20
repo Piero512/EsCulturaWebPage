@@ -58,13 +58,6 @@ li a:hover:not(.active) {
     height: 40px;
     display: inline-block;
     position: relative;
-    -webkit-transition: .3s ease all;
-    -o-transition: .3s ease all;
-    -moz-transition: .3s ease all;
-    transition: .3s ease all;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 
 .div-logo {
