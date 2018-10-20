@@ -13,7 +13,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
     background-color: #9baec8;
 }
 
@@ -28,8 +32,9 @@ li a:hover {
     margin: 0;
     padding: 0;
     padding: 0 18px;
-    background-color: #282c37;
+    background-color: #34314c;
     overflow: hidden;
+    border: 1px solid #e7e7e7;
 }
 
 /*CLASS*/
@@ -41,6 +46,17 @@ li a:hover {
     padding: 10px;
 }
 
+.span-text {
+    color: antiquewhite;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.3em;
+}
+
+i.left {
+    float: left;
+    margin-right: 5px;
+}
+
 header .logo {
     margin:1px 0px;
     padding:22px 20px;
@@ -50,28 +66,14 @@ header .logo-img {
     height: 50px;
 }
 
-.navbar-fixed {
-    position: relative;
-    height: 56px;
-
-}
-
 nav .nav-wrapper {
     position: relative;
     height: 100%;
 }
 
-nav i.icons {
+nav i.material-icons {
     display: block;
+    float: left;
     font-size: 24px;
-    height: 56px;
-    line-height: 56px;
 }
-
-.span-text {
-    color: antiquewhite;
-    font-family: 'Asap', sans-serif;
-    font-size: 1.3em;
-}
-
 
