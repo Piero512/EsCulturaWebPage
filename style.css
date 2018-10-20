@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+/*ID*/
+#horizontal-nav {
+    margin-top: 64px;
+    z-index: -1;
+}
+
+#ul-horizontal-nav{
+    padding: 0 18px;
+}
+
+/*CLASS*/
+.page-header {
+    background: #2b90d9;
+    background: -webkit-linear-gradient(45deg, #9baec8 0%, #d9e1e8 100%);
+    background: linear-gradient(45deg, #9baec8 0%, #d9e1e8 100%);
+    margin: auto auto;
+    padding: 10px;
+}
+
+header .logo {
+    margin:1px 0px;
+    padding:22px 20px;
+}
+
+header .logo-img {
+    height: 50px;
+}
+
+.navbar-fixed {
+    position: relative;
+    height: 56px;
+
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+nav i.icons {
+    display: block;
+    font-size: 24px;
+    height: 56px;
+    line-height: 56px;
+}
+
+.span-text {
+    color: antiquewhite;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.3em;
+}
+
+
