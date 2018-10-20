@@ -52,6 +52,29 @@ li a:hover:not(.active) {
     font-size: 1.3em;
 }
 
+.search-wrapper {
+    margin: 10px auto 0 260px;
+    width: calc(100% - 600px);
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.div-logo {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
 i.left {
     float: left;
     margin-right: 5px;
