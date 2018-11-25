@@ -7,14 +7,9 @@ li {
 
 li a {
     font-family: 'Quicksand', sans-serif;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
 }
 
 .active {

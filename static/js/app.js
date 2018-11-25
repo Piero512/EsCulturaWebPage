@@ -4,13 +4,11 @@ app.config(function($routeProvider) {
   $routeProvider
 
   .when('/about', {
-    templateUrl : 'pages/about.html',
-    controller  : 'BlogController'
+    templateUrl : 'pages/about.html'
   })
 
   .when('/contact', {
-    templateUrl : 'pages/contact_us.html',
-    controller  : 'AboutController'
+    templateUrl : 'pages/contact_us.html'
   })
 
 });
