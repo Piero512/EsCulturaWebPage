@@ -4,7 +4,7 @@ app.config(function($routeProvider) {
   $routeProvider
 
   .when('/about', {
-    templateUrl : 'templates/about.html',
+    templateUrl : 'pages/about.html',
     controller  : 'BlogController'
   })
 
