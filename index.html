@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" ng-app="esCultura">
-    
+
 <head>
     <!--Etiquetas META-->
     <meta charset="utf-8">
@@ -42,16 +42,23 @@
         </header>
         <!-- END HEADER -->
         <!-- Navigation -->
-        <nav class="horizontal-nav">
-            <div class="nav-wrapper">
-                <ul id="ul-horizontal-nav">
-                    <li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+            <button 
+            class="navbar-toggler" 
+             type="button" 
+             data-toggle="collapse" 
+             data-target="#navContent">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ">
                         <a href="#!">
                             <i class="material-icons left">home</i>
                             Inicio
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item active">
                         <a href="#!about">
                             <i class="material-icons left">account_circle</i>
                             ¿Quiénes somos?
@@ -63,7 +70,7 @@
                             ¿Qué hacemos?
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item active">
                         <a href="#!contact">
                             <i class="material-icons left">settings_phone</i>
                             Contáctanos
@@ -78,26 +85,22 @@
         
         <!-- FOOTER -->
         <footer class="footer fixed-bottom">
-            <div>
-                <div>
-                    <div>
-                        <span>Copyright ©
-                            <script type="text/javascript">
-                                document.write(new Date().getFullYear());
-                            </script>
-                            <a>ES CULTURA</a> All rights reserved.
-                        </span>
-                        <span> Design and Developed by <a href="http://www.espol.edu.ec/">Viviana Laurido & Piero Ulloa - ESPOL</a>
-                        </span>
-                    </div>
-                </div>
+            <div class="container">
+                <span>Copyright ©
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                    ES CULTURA All rights reserved.
+                </span>
+                <span> Design and Developed by <a class="link" href="http://www.espol.edu.ec/">Viviana Laurido & Piero Ulloa - ESPOL</a>
+                </span>
             </div>
+            
         </footer>
         <!-- END FOOTER -->
     </div>
-    
-    <script src="static/js/bootstrap.bundle.js"></script>
     <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/bootstrap.bundle.js"></script>
     <script src="static/js/app.js"></script>
 </body>
 </html>
