@@ -7,6 +7,10 @@ app.config(function($routeProvider) {
     templateUrl : 'pages/about.html'
   })
 
+  .when('/activities', {
+    templateUrl : 'pages/activities.html'
+  })
+
   .when('/contact', {
     templateUrl : 'pages/contact_us.html'
   })
