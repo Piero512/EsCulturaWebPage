@@ -16,6 +16,7 @@
     <!--Etiquetas SCRIPT-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-animate.min.js"></script>
     <title>
         Es Cultura
     </title>
@@ -42,7 +43,8 @@
         </header>
         <!-- END HEADER -->
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <!--
+        <nav class="navbar navbar-expand-lg" >
             <button 
             class="navbar-toggler" 
              type="button" 
@@ -50,7 +52,7 @@
              data-target="#navContent">
                 <span class="navbar-toggler-icon" ></span>
             </button>
-            <div class="collapse navbar-collapse" id="navContent">
+            <div class="collapse navbar-collapse navbar-dark" id="navContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active ">
                         <a href="#!">
@@ -78,13 +80,44 @@
                     </li>
                 </ul>
             </div>
+        </nav> -->
+        <!-- Navigation -->
+        <nav class="horizontal-nav">
+            <div class="nav-wrapper">
+                <ul id="ul-horizontal-nav">
+                    <li>
+                        <a href="#!">
+                            <i class="material-icons left">home</i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!about">
+                            <i class="material-icons left">account_circle</i>
+                            Nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!activities">
+                            <i class="material-icons left">group_work</i>
+                            Nuestras actividades
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!contact">
+                            <i class="material-icons left">settings_phone</i>
+                            Contáctanos
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <!-- End Navigation -->
         <!-- Contenido -->
         <div ng-view></div>
         
         <!-- FOOTER -->
-        <footer class="page-footer font-small blue">
+        <footer class="page-footer font-small">
 
             <!-- Copyright -->
             <div class="footer-copyright text-center py-3">© 2018 Copyright:
