@@ -35,21 +35,17 @@
                         </a>
                     </h1>
                 </div>
-                <div class="search-wrapper">
-                    <i class="material-icons left">search</i>
-                    <input type="text" nombres="Search" placeholder="Explora Es Cultura" />
-                </div>
             </div>
         </header>
         <!-- END HEADER -->
         <!-- Navigation -->
         <!--
-        <nav class="navbar navbar-expand-lg" >
-            <button 
-            class="navbar-toggler" 
-             type="button" 
-             data-toggle="collapse" 
-             data-target="#navContent">
+            <nav class="navbar navbar-expand-lg" >
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navContent">
                 <span class="navbar-toggler-icon" ></span>
             </button>
             <div class="collapse navbar-collapse navbar-dark" id="navContent">
@@ -82,56 +78,70 @@
             </div>
         </nav> -->
         <!-- Navigation -->
-        <nav class="horizontal-nav">
-            <div class="nav-wrapper">
-                <ul id="ul-horizontal-nav">
-                    <li>
-                        <a href="#!">
-                            <i class="material-icons left">home</i>
-                            Inicio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!about">
-                            <i class="material-icons left">account_circle</i>
-                            Nosotros
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!activities">
-                            <i class="material-icons left">group_work</i>
-                            Nuestras actividades
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!contact">
-                            <i class="material-icons left">settings_phone</i>
-                            Contáctanos
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- End Navigation -->
-        <!-- Contenido -->
-        <div ng-view></div>
+        <nav class="horizontal-nav navbar navbar-expand-lg" id="navContainer">
+            <a class="navbar-brand" data-toggle="collapse" data-target="#navContent">Menú</a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navContent">
+            <span class="navbar-toggler-icon" ></span>
+            </button>
+        <div class="nav-wrapper collapse navbar-collapse" id="navContent">
+            <ul id="ul-horizontal-nav" class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#!">
+                        <i class="material-icons left">home</i>
+                        Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!about">
+                        <i class="material-icons left">account_circle</i>
+                        Nosotros
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!activities">
+                        <i class="material-icons left">group_work</i>
+                        Nuestras actividades
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!contact">
+                        <i class="material-icons left">settings_phone</i>
+                        Contáctanos
+                    </a>
+                </li>
+                <li class="nav-item search-wrapper">
+                    <div>
+                        <i class="material-icons left">search</i>
+                        <input type="text" nombres="Search" placeholder="Explora Es Cultura" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+    <!-- Contenido -->
+    <div ng-view></div>
+    
+    <!-- FOOTER -->
+    <footer class="page-footer font-small">
         
-        <!-- FOOTER -->
-        <footer class="page-footer font-small">
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="http://www.espol.edu.ec/"> Viviana Laurido & Piero Ulloa - ESPOL</a>
-            </div>
-            <!-- Copyright -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="http://www.espol.edu.ec/"> Viviana Laurido & Piero Ulloa - ESPOL</a>
+        </div>
+        <!-- Copyright -->
         
-        </footer>
-        <!-- END FOOTER -->
-
-    </div>
-    <script src="static/js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="static/js/bootstrap.js"></script>
-    <script src="static/js/app.js"></script>
+    </footer>
+    <!-- END FOOTER -->
+    
+</div>
+<script src="static/js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="static/js/bootstrap.js"></script>
+<script src="static/js/app.js"></script>
 </body>
 </html>

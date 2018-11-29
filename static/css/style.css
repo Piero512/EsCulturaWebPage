@@ -45,10 +45,8 @@
 
 .search-wrapper {
     max-width: fit-content;
-    height: 40px;
-    position: absolute;
-    bottom: 1%;
-    right: 1%;
+    float: right;
+    padding: 0 18px;
 }
 
 .div-logo {
@@ -159,4 +157,20 @@ color: midnightblue;
 
 aside:last-child {
     padding-bottom: 1em;
+}
+
+@media (min-width: 768px){
+    #navContainer {
+        padding: 0;
+        background: #3c8fa8
+    }
+    #navContent {
+        display: block !important;
+    }
+    #ul-horizontal-nav {
+        display: block;
+    }
+    .navbar-brand {
+        display: none;
+    }
 }
