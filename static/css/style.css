@@ -171,6 +171,6 @@ aside:last-child {
         display: block;
     }
     .navbar-brand {
-        display: none;
+        display: none !important;
     }
 }
