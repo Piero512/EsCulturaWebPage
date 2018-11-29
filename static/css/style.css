@@ -1,25 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-li {
-    float: left;
-}
-
-li a {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.active {
-    background-color: #9baec8;
-}
+/************SELECTORS*********/
 
 /*ID*/
 #horizontal-nav {
     margin-top: 64px;
-    z-index: -1;
 }
 
 #ul-horizontal-nav{
@@ -28,21 +14,28 @@ li a {
     padding: 0;
     padding: 0 18px;
     overflow: hidden;
+    background-color: #3c8fa8;
 }
 
 /*CLASS*/
 .page-header {
     background: #2b90d9;
     background: -webkit-linear-gradient(45deg, #9baec8 0%, #d9e1e8 100%);
-    background: linear-gradient(45deg, #9baec8 0%, #d9e1e8 100%);
+    background: #d6c5ab;
+    /*background: linear-gradient(45deg, #d6c5ab 0%, white 100%);*/
     margin: auto auto;
-    padding: 10px;
+    /*padding: 10px;*/
+}
+
+.button {
+    margin-bottom: 1em;
 }
 
 .span-text {
-    color: antiquewhite;
-    font-family: 'Asap', sans-serif;
+    color: midnightblue;
+    font-family: 'Baloo', sans-serif;
     font-size: 1.3em;
+    /*font-weight: bold;*/
 }
 
 .search-wrapper {
@@ -66,6 +59,30 @@ i.left {
     margin-right: 5px;
 }
 
+.active {
+    background-color: #9baec8;
+}
+
+li {
+    float: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+li a {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: #d6c5ab;
+}
+
+
 header .logo {
     margin:1px 0px;
     padding:22px 20px;
@@ -73,6 +90,7 @@ header .logo {
 
 header .logo-img {
     height: 50px;
+    vertical-align: middle;
 }
 
 nav .nav-wrapper {
@@ -91,3 +109,36 @@ nav i.material-icons {
     font-size: 24px;
 }
 
+footer {
+    background-color: #3c8fa8;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {color: white;}  /* visited link */
+footer a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+div h2 {
+    margin-top: 0.5em;
+}
+
+article > img {
+    padding-top: 1em;
+}
+
+aside:last-child {
+    padding-bottom: 1em;
+}
+ p {
+     text-align: justify;
+ }
+
+ header > h2, div > h2 {
+    font-family: 'Baloo', sans-serif;
+    color: midnightblue;
+ }
