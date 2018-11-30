@@ -27,6 +27,7 @@
     background: #d6c5ab;
     /*background: linear-gradient(45deg, #d6c5ab 0%, white 100%);*/
     margin: auto auto;
+    text-align: center;
     /*padding: 10px;*/
 }
 
@@ -39,7 +40,7 @@
 .span-text {
     color: midnightblue;
     font-family: 'Baloo', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     /*font-weight: bold;*/
 }
 
@@ -106,6 +107,7 @@ footer {
 
 footer a {
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 li a {
@@ -118,6 +120,10 @@ li a {
 
 ul {
     list-style-type: none;
+}
+
+input {
+    border-radius: 0.6em;
 }
 
 div h2 {
@@ -137,7 +143,7 @@ footer a:hover {
     text-decoration: none;
 }
 
-div > label, figcaption, time {
+div > label, figcaption, time, header > h3, h5 {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -159,6 +165,21 @@ aside:last-child {
     padding-bottom: 1em;
 }
 
+footer > div{
+    margin-left:1.5em;
+}
+
+img[id^="img"] {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 140px;
+    max-width: 160px;
+    max-height: 140px;
+    border-radius: 0.5em;
+}
+
 @media (min-width: 768px){
     #navContainer {
         padding: 0;
@@ -174,3 +195,4 @@ aside:last-child {
         display: none !important;
     }
 }
+
